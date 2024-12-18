@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - SantapanNUSA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        body {
+            color: #333;
+            background-image: url('background art.jpg'); /* Ganti dengan URL gambar latar belakang Anda */
+            background-size: cover; /* Membuat gambar menutupi seluruh halaman */
+            background-position: center center; /* Menyelaraskan gambar ke tengah */
+            padding: 20px;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .menu-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-content h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #4CAF50;
+        }
+
+        .menu-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .menu-item {
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .menu-item h3 {
+            color: #4CAF50;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .menu-item p {
+            color: #555;
+            font-size: 1rem;
+        }
+
+        .back-btn {
+            display: block;
+            margin: 30px auto;
+            padding: 10px 30px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 8px;
+            width: fit-content;
+        }
+
+        .back-btn:hover {
+            background: #45a049;
+        }
+
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .menu-content {
+                padding: 15px;
+            }
+
+            .menu-item h3 {
+                font-size: 1.3rem;
+            }
+
+            .menu-item p {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Menu SantapanNUSA</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="articles.html">Artikel</a></li>
+            <li><a href="menu.html">Menu</a></li>
+        </ul>
+    </nav>
+
+    <div class="menu-content">
+        <h2>Item khas Nusantara</h2>
+        <div class="menu-list">
+            <div class="menu-item">
+                <h3>Rendang(Minangkabau, Sumatera Barat)</h3>
+                <p>Hidangan berbahan dasar daging sapi yang dimasak dengan santan dan berbagai rempah seperti serai, lengkuas, daun kunyit, dan cabai. Rendang dimasak dengan teknik lama sehingga menghasilkan tekstur daging yang empuk dan bumbu yang meresap sempurna. Hidangan ini juga sering disebut sebagai salah satu makanan terlezat di dunia.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Sate Ayam(Madura, Jawa Timur)</h3>
+                <p> Potongan ayam yang ditusuk pada lidi atau bambu, lalu dipanggang di atas arang dan disajikan dengan saus kacang kental. Aroma khas dari proses pembakaran menjadikan sate ini favorit di seluruh Indonesia.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Nasi Goreng</h3>
+                <p>Nasi yang digoreng dengan bumbu seperti bawang putih, bawang merah, kecap manis, dan cabai. Hidangan ini biasanya dilengkapi dengan telur goreng, kerupuk, dan acar. Variasinya bisa ditemukan di berbagai daerah dengan cita rasa loka.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Gado-Gado(Jawa)</h3>
+                <p>Salad sayuran rebus seperti kangkung, tauge, kacang panjang, dan kubis, yang disiram saus kacang kental. Hidangan ini sering dilengkapi dengan lontong, kerupuk, dan taburan bawang goreng.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Soto Ayam(Jawa tengah)</h3>
+                <p>Sup tradisional yang menggunakan kuah kuning dari kunyit dan suwiran ayam. Biasanya disajikan dengan nasi, irisan telur rebus, dan kerupuk. Soto ini memiliki rasa yang segar dan gurih..</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pempek(Palembang, Sumatera Selatan)</h3>
+                <p>Makanan yang terbuat dari ikan tenggiri dan sagu, digoreng hingga renyah, dan disajikan dengan kuah cuko yang pedas dan manis. Varian terkenal termasuk pempek kapal selam yang berisi teluro.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Ayam Betutu(Bali)</h3>
+                <p>Ayam Betutu adalah hidangan khas Bali yang terkenal dengan bumbu genep atau bumbu lengkap khas Bali. Ayam diperap dengan bumbu yang terdiri dari kunyit, jahe, bawang merah, bawang putih, cabai, dan rempah-rempah lainnya. Proses memasak ayam betutu memerlukan waktu yang lama karena ayam dimasak dengan cara direbus atau dikukus hingga empuk dan bumbu meresap sempurna. Setelah itu, ayam akan dibungkus dengan daun pisang dan dibakar atau dikukus dalam waktu yang lama untuk menghasilkan rasa yang kaya dan daging yang sangat empuk. Ayam Betutu sering disajikan pada acara adat, upacara keagamaan, atau perayaan khusus di Bali, dan merupakan hidangan yang menggambarkan kekayaan rempah-rempah serta budaya Bali yang penuh makna.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Rawon (Jawa Timur)</h3>
+                <p>Rawon adalah sup daging sapi dengan kuah hitam pekat yang berasal dari bumbu kluwek, sejenis buah yang memiliki warna hitam alami dan memberikan rasa khas yang gurih dan sedikit pahit. Daging sapi yang digunakan dalam rawon dimasak lama hingga empuk, dan kuahnya mengandung rempah-rempah seperti serai, daun jeruk, lengkuas, dan bawang putih. Rawon biasanya disajikan dengan nasi putih, tauge segar, telur asin, dan sambal untuk menambah cita rasa pedas. Kadang-kadang ditambahkan kerupuk atau emping sebagai pelengkap</p>
+            </div>
+            <div class="menu-item">
+                <h3>Nasi Liwet(Solo,Jawa Tengah)</h3>
+                <p>Nasi liwet adalah hidangan nasi khas Solo yang dimasak dengan santan, daun salam, dan rempah-rempah seperti serai dan kunyit. Proses memasaknya yang menggunakan teknik kukus memberikan aroma gurih yang kuat pada nasi. Nasi liwet biasanya disajikan dengan lauk pauk seperti ayam suwir, telur pindang, tahu, tempe, dan kadang dilengkapi dengan sayuran seperti labu siam. Makanan ini sering disajikan dalam acara-acara keluarga atau perayaan khas Solo.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Bubur Manado(Sulawesi Utara)</h3>
+                <p>Bubur Manado adalah bubur nasi khas dari Manado yang kaya akan rasa dan nutrisi. Bubur ini dimasak dengan bahan-bahan seperti beras, labu kuning, jagung, kangkung, dan daun kemangi, serta rempah-rempah khas. Rasanya gurih, segar, dan sedikit pedas berkat tambahan sambal ikan roa (ikan asap khas Sulawesi) yang disiram di atas bubur. Bubur ini sering dimakan sebagai sarapan atau makan siang dengan tambahan kerupuk atau emping.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Sate Lilit (Bali)</h3>
+                <p>Sate Lilit adalah sate khas Bali yang unik karena daging cincang (biasanya ikan atau ayam) dililitkan pada batang serai sebagai tusuk sate. Dagingnya dicampur dengan bumbu khas Bali seperti kelapa parut, bawang putih, kemiri, dan cabai. Sate ini kemudian dipanggang hingga matang sempurna, menghasilkan aroma harum dari serai dan bumbu rempah Bali yang khas. Sate Lilit biasanya disajikan dengan sambal matah (sambal mentah khas Bali) dan nasi putih</p>
+            </div>
+            <div class="menu-item">
+                <h3>Karedok(unda, Jawa Barat)</h3>
+                <p>Karedok adalah salad sayuran mentah yang terdiri dari bahan-bahan seperti kacang panjang, timun, kol, terong, dan tauge, yang kemudian disiram dengan saus kacang pedas yang terbuat dari kacang tanah, cabai, gula merah, dan sedikit air asam jawa. Karedok berbeda dengan gado-gado karena sayuran dalam karedok tidak dimasak, sehingga rasa segar dan renyah dari sayuran lebih terasa. Karedok adalah hidangan yang sangat populer di daerah Sunda dan sering dijadikan makanan pembuka atau camilan sehat.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Es Cendol(Jawa Barat)</h3>
+                <p>Es Cendol adalah minuman tradisional yang terbuat dari tepung beras yang dibentuk menyerupai mie hijau, yang dikenal dengan nama "cendol." Cendol biasanya disajikan dengan air es, gula merah cair, dan santan kental. Minuman ini manis, segar, dan cocok untuk menghilangkan dahaga, terutama pada cuaca panas. Es Cendol sangat populer di Jawa Barat, namun juga dapat ditemukan di berbagai daerah di Indonesia dengan sedikit variasi pada bahan dan cara penyajian</p>
+            </div>
+            <div class="menu-item">
+                <h3>Bakso</h3>
+                <p>Bakso adalah bola daging sapi yang dicampur dengan tepung kanji dan rempah-rempah, kemudian direbus hingga matang. Bakso biasanya disajikan dalam kuah kaldu yang gurih, bersama dengan pelengkap seperti mie, tahu, pangsit, dan sayuran. Bakso juga dapat ditemukan dalam berbagai bentuk dan ukuran, dan sering kali dijual oleh penjual kaki lima dengan gerobak keliling. Hidangan ini adalah salah satu yang paling disukai di Indonesia, baik untuk makan siang, makan malam, atau camilan.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Kerak Telor</h3>
+                <p>Kerak telor adalah hidangan tradisional Betawi yang terbuat dari telur bebek atau ayam, beras ketan, dan serundeng kelapa. Bahan-bahan tersebut dimasak menggunakan wajan besi di atas api arang, memberikan rasa gurih dan aroma khas. Kerak telor memiliki tekstur yang renyah di bagian luar dan lembut di bagian dalam, serta sering disajikan dengan taburan bawang goreng dan sambal. Hidangan ini menjadi salah satu jajanan kaki lima yang terkenal di Jakarta, terutama selama festival atau acara khas Betawi.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Serabi</h3>
+                <p>Serabi adalah kue tradisional Indonesia yang terbuat dari tepung beras dan dimasak dalam wajan tanah liat dengan api kecil. Serabi memiliki dua varian rasa, yaitu manis (dengan gula merah) dan gurih (dengan santan). Varian manis biasanya memiliki topping kelapa parut, sementara varian gurih lebih sering disajikan dengan kuah santan. Serabi memiliki tekstur yang kenyal di bagian tengah dan renyah di bagian pinggirnya, serta sangat populer sebagai camilan di pagi hari atau sebagai makanan penutup.</p>
+            </div>
+        </div>
+        <a href="index.html" class="back-btn">Kembali ke Beranda</a>
+    </div>
+
+</body>
+</html>
